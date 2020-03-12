@@ -1,0 +1,11 @@
+.container{
+    justify-self: center;
+    align-self: center;
+    background-color: $color-blue;
+    display: grid;
+    grid-template-rows: 20vh 1fr;
+    grid-template-columns: 1fr;
+    max-width: 65rem;
+    padding: 5rem;
+    border-radius: 2rem;
+}

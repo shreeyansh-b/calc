@@ -1,0 +1,47 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    &--upper{
+        
+    }
+    &--bottom{
+
+    }
+}
+.bottom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.operands{
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+.operators{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+#btn-div{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+#btn-mul{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+#btn-min{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+#btn-plu{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+#btn-equ{
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
